@@ -7,14 +7,18 @@
     />
     <p>{{wppost.acf.description}}</p>
     <div v-for="(item, index) in wppost._embedded['wp:term']" :key="index">
-      <div v-if="index < 3">
+      <div v-if="index >= 3">
+        <h3>{{item[0].taxonomy.charAt(0).toUpperCase() + item[0].taxonomy.slice(1) + ((item.length > 1) ? "s" : "")}}</h3>
+        <p>
+          <span v-for="subitem in item" :key="subitem.id">{{subitem.name}},</span>
+        </p>
+      </div>
+      <div v-else>
         <h3>{{item[0].taxonomy.charAt(0).toUpperCase() + item[0].taxonomy.slice(1) + ((item.length > 1) ? "s" : "")}}</h3>
         <ul>
           <li v-for="subitem in item" :key="subitem.id">{{subitem.name}}</li>
         </ul>
       </div>
-      <div v-else>
-        </div>
     </div>
   </div>
 </template>
