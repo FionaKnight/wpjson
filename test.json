@@ -1,158 +1,94 @@
 {
-"id": 31,
-"date": "2020-04-22T17:25:31",
-"date_gmt": "2020-04-22T16:25:31",
-"guid": {
-"rendered": "http://localhost/WPAPI/?p=31"
-},
-"modified": "2020-04-22T17:25:31",
-"modified_gmt": "2020-04-22T16:25:31",
-"slug": "cineworld-unlimited",
+"id": 64,
+"date": "2020-04-23T04:15:36",
+"date_gmt": "2020-04-23T03:15:36",
+"guid": {},
+"modified": "2020-04-25T14:50:11",
+"modified_gmt": "2020-04-25T13:50:11",
+"slug": "the-secret-life-of-pets",
 "status": "publish",
-"type": "post",
-"link": "http://localhost/WPAPI/cineworld-unlimited/",
+"type": "films",
+"link": "http://localhost/WPAPI/films/the-secret-life-of-pets/",
 "title": {},
-"content": {},
-"excerpt": {},
-"author": 1,
-"featured_media": 11,
-"comment_status": "open",
-"ping_status": "open",
-"sticky": false,
+"featured_media": 77,
 "template": "",
-"format": "standard",
-"meta": [],
-"categories": [],
-"tags": [],
-"acf": [],
+"actor": [],
+"director": [],
+"writer": [],
+"acf": {},
 "_links": {},
 "_embedded": {
-"author": [],
-"wp:featuredmedia": [
-{
-"id": 11,
-"date": "2020-04-22T17:05:53",
-"slug": "cineworld",
-"type": "attachment",
-"link": "http://localhost/WPAPI/book-signing-by-tom-cruise/cineworld/",
-"title": {},
-"author": 1,
-"acf": [],
-"caption": {},
-"alt_text": "",
-"media_type": "image",
-"mime_type": "image/jpeg",
-"media_details": {
-"width": 620,
-"height": 240,
-"file": "2020/04/cineworld.jpg",
-"sizes": {
-"medium": {
-"file": "cineworld-300x116.jpg",
-"width": 300,
-"height": 116,
-"mime_type": "image/jpeg",
-"source_url": "http://localhost/WPAPI/wp-content/uploads/2020/04/cineworld-300x116.jpg"
-},
-"thumbnail": {
-"file": "cineworld-150x150.jpg",
-"width": 150,
-"height": 150,
-"mime_type": "image/jpeg",
-"source_url": "http://localhost/WPAPI/wp-content/uploads/2020/04/cineworld-150x150.jpg"
-},
-"full": {
-"file": "cineworld.jpg",
-"width": 620,
-"height": 240,
-"mime_type": "image/jpeg",
-"source_url": "http://localhost/WPAPI/wp-content/uploads/2020/04/cineworld.jpg"
-}
-},
-"image_meta": {}
-},
-"source_url": "http://localhost/WPAPI/wp-content/uploads/2020/04/cineworld.jpg",
-"_links": {}
-}
-],
+"wp:featuredmedia": [],
 "wp:term": [
 [
 {
-"id": 4,
-"link": "http://localhost/WPAPI/category/cinema/",
-"name": "cinema",
-"slug": "cinema",
-"taxonomy": "category",
+"id": 53,
+"link": "http://localhost/WPAPI/actor/eric-stonestreet/",
+"name": "Eric Stonestreet",
+"slug": "eric-stonestreet",
+"taxonomy": "actor",
 "acf": [],
-"_links": {
-"self": [
-{
-"href": "http://localhost/WPAPI/wp-json/wp/v2/categories/4"
-}
-],
-"collection": [
-{
-"href": "http://localhost/WPAPI/wp-json/wp/v2/categories"
-}
-],
-"about": [
-{
-"href": "http://localhost/WPAPI/wp-json/wp/v2/taxonomies/category"
-}
-],
-"wp:post_type": [
-{
-"href": "http://localhost/WPAPI/wp-json/wp/v2/posts?categories=4"
-}
-],
-"curies": [
-{
-"name": "wp",
-"href": "https://api.w.org/{rel}",
-"templated": true
-}
-]
-}
+"_links": {}
 },
 {
-"id": 3,
-"link": "http://localhost/WPAPI/category/sale/",
-"name": "sale",
-"slug": "sale",
-"taxonomy": "category",
+"id": 54,
+"link": "http://localhost/WPAPI/actor/kevin-hart/",
+"name": "Kevin Hart",
+"slug": "kevin-hart",
+"taxonomy": "actor",
 "acf": [],
-"_links": {
-"self": [
+"_links": {}
+},
 {
-"href": "http://localhost/WPAPI/wp-json/wp/v2/categories/3"
+"id": 52,
+"link": "http://localhost/WPAPI/actor/louis-c-k/",
+"name": "Louis C.K.",
+"slug": "louis-c-k",
+"taxonomy": "actor",
+"acf": [],
+"_links": {}
 }
 ],
-"collection": [
+[
 {
-"href": "http://localhost/WPAPI/wp-json/wp/v2/categories"
+"id": 65,
+"link": "http://localhost/WPAPI/director/chris-renaud/",
+"name": "Chris Renaud",
+"slug": "chris-renaud",
+"taxonomy": "director",
+"acf": [],
+"_links": {}
+},
+{
+"id": 64,
+"link": "http://localhost/WPAPI/director/yarrow-cheney/",
+"name": "Yarrow Cheney",
+"slug": "yarrow-cheney",
+"taxonomy": "director",
+"acf": [],
+"_links": {}
 }
 ],
-"about": [
+[
 {
-"href": "http://localhost/WPAPI/wp-json/wp/v2/taxonomies/category"
-}
-],
-"wp:post_type": [
+"id": 50,
+"link": "http://localhost/WPAPI/writer/cinco-paul/",
+"name": "Cinco Paul",
+"slug": "cinco-paul",
+"taxonomy": "writer",
+"acf": [],
+"_links": {}
+},
 {
-"href": "http://localhost/WPAPI/wp-json/wp/v2/posts?categories=3"
-}
-],
-"curies": [
-{
-"name": "wp",
-"href": "https://api.w.org/{rel}",
-"templated": true
+"id": 51,
+"link": "http://localhost/WPAPI/writer/ken-daurio/",
+"name": "Ken Daurio",
+"slug": "ken-daurio",
+"taxonomy": "writer",
+"acf": [],
+"_links": {}
 }
 ]
-}
-}
-],
-[]
 ]
 }
 }
