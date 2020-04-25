@@ -3,18 +3,21 @@
 "date": "2020-04-23T04:15:36",
 "date_gmt": "2020-04-23T03:15:36",
 "guid": {},
-"modified": "2020-04-25T14:50:11",
-"modified_gmt": "2020-04-25T13:50:11",
+"modified": "2020-04-25T18:27:06",
+"modified_gmt": "2020-04-25T17:27:06",
 "slug": "the-secret-life-of-pets",
 "status": "publish",
 "type": "films",
 "link": "http://localhost/WPAPI/films/the-secret-life-of-pets/",
-"title": {},
+"title": {
+"rendered": "The Secret Life of Pets"
+},
 "featured_media": 77,
 "template": "",
 "actor": [],
 "director": [],
 "writer": [],
+"genre": [],
 "acf": {},
 "_links": {},
 "_embedded": {
@@ -85,6 +88,35 @@
 "name": "Ken Daurio",
 "slug": "ken-daurio",
 "taxonomy": "writer",
+"acf": [],
+"_links": {}
+}
+],
+[
+{
+"id": 14,
+"link": "http://localhost/WPAPI/genre/adventure/",
+"name": "Adventure",
+"slug": "adventure",
+"taxonomy": "genre",
+"acf": [],
+"_links": {}
+},
+{
+"id": 13,
+"link": "http://localhost/WPAPI/genre/animation/",
+"name": "Animation",
+"slug": "animation",
+"taxonomy": "genre",
+"acf": [],
+"_links": {}
+},
+{
+"id": 15,
+"link": "http://localhost/WPAPI/genre/comedy/",
+"name": "Comedy",
+"slug": "comedy",
+"taxonomy": "genre",
 "acf": [],
 "_links": {}
 }
